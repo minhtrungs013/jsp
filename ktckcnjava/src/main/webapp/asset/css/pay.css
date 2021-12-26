@@ -1,0 +1,23 @@
+.pay-content{
+	overflow: hidden;
+	border-radius: 4px;
+	background: rgba(255,255,255,.6);
+	
+}
+.pay-content__box{
+	border-radius: 10px;
+	font-size: 1.6rem;
+	padding: 10px 10px 10px 10px !important;
+	box-shadow: 0 2px 4px 0 rgba(70, 68, 68, 0.4);
+
+}
+.pay-content__box input {
+	height: 38px;
+	font-size: 1.4rem;
+	border-radius: 4px;
+}
+.selecrs {
+	height: 38px !important;
+	font-size: 1.4rem;
+	border-radius: 4px;
+}

@@ -1,0 +1,37 @@
+.bill{
+	overflow: hidden;
+	border-radius: 4px;
+	background: rgba(255,255,255,.4);
+	
+}
+.bill__list{
+	text-align: center;
+	border-radius: 10px;
+	font-size: 1.6rem;
+	background: rgba(255,255,255,.7);
+	box-shadow: 0 2px 4px 0 rgba(70, 68, 68, 0.6);
+}
+.bill__list h5{
+	color: red;
+	font-size: 1.6rem;
+}
+.bill__list-table{
+	text-align: center;
+	font-size: 1.6rem;
+	background: rgba(255,255,255,.7);
+	box-shadow: 0 2px 4px 0 rgba(70, 68, 68, 0.6);
+}
+.bill__total{
+	margin-left: 40%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 250px;
+	height: 40px;
+	padding-top: 3px;
+	text-align: center;
+	border-radius: 4px;
+	font-size: 2rem;
+	background: rgba(255,255,255,.7);
+	box-shadow: 0 2px 4px 0 rgba(70, 68, 68, 0.6);
+}

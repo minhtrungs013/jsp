@@ -1,0 +1,226 @@
+:root{
+
+    --primary-color: #ee4d2d;
+    --white-color: #ffffff;
+    --back-color: black;
+    --text-color: #333;
+    --border-color: #dbdbdb;
+    --navbar-height: 40.2px;
+    --header__sofr-bar: 46px;
+    --header-height: 120px;
+    --star-color: #ffce3e;
+    --header-with-search-height: calc(var(--header-height) - var(--navbar-height));
+    
+}
+*{
+    box-sizing: inherit;
+}
+html{
+    font-size: 62.5%;
+    line-height: 1.6rem;
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+
+}
+
+/* responsive */
+
+/* GIÃšP tÃ­ch há»£p theo nhiá»�u mÃ n hÃ¬nh */
+ 
+/* nhá»¯ng tháº» nÃ o dÃ¹ng class nÃ y sáº½ náº±m ngang */
+
+
+
+/* amition */
+@keyframes fadein{
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+
+    }
+}
+@keyframes growth{
+    from{
+        transform: scale(var(--growth-from));
+    }
+    to{
+        transform: scale(var(--growth-to));
+
+    }
+}
+
+.app{
+    overflow: hidden;
+}
+
+/* btn stlye */
+.btn{
+    min-width: 100px ;
+    height: 36px;
+    text-decoration: none;
+    border: none;
+    border-radius: 3px;
+    font-size: 1.4rem;
+    padding: 0 12px;
+    outline: none;
+    cursor: pointer;
+    color: var(--text-color);
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--white-color);
+
+}
+.btn__nomal:hover{
+    background-color: rgba(0,0,0,0.2);
+}
+.btn.btn--primary{
+    color: var(--white-color);
+    background-color: var(--primary-color);
+
+
+}
+/* vÃ´ hiá»‡u hÃ³a nÃºt */
+.btn.btn--disable{
+    color: #ccc;
+    cursor: default;
+    background-color: #999;
+}
+.btn.btn--size-s{
+    height: 32px;
+    font-size: 12px;
+    padding:  0 5px;
+     
+}
+.header__search-input:focus ~ .header__search-history{
+    display: block;
+} 
+/* search history */
+.header__search-history {
+    position: absolute;
+    top: calc(100% + 4px);
+    left: 0;
+    width: calc(100% - 16px);
+    background-color: var(--white-color);
+    border-radius: 3px;
+    box-shadow: 0 1px 3px #666;
+    overflow: hidden;
+    display: none;
+
+}
+
+.header__search-history-heading {
+    margin: 8px 12px;
+    font-size: 1.3rem;
+    color: #999;
+    font-weight: 400;
+}
+
+.header__search-history-list {
+    padding-left: 0;
+    list-style: none;
+    margin: 0;
+}
+
+.header__search-history-item {
+   height: 30px;
+   padding: 0 12px;
+
+}
+.header__search-history-item a{
+    text-decoration: none;
+    font-size: 1.3rem;
+    color: var(--text-color);
+    line-height: 30px; /* lÃ m cÄƒn chá»¯ giá»¯a hÃ ng*/
+}
+/* selection */
+.select-input{
+    min-width: 200px;
+    height: 34px;
+    padding: 0 12px;
+    border-radius: 2px;
+    background-color: var(--white-color);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+.select-input:hover .select-input__list{
+    display: block;
+}
+.select-input-lable{
+    font-size: 1.4rem;
+
+}
+
+.select-input-icon{
+    color: #4a4a4a;
+    position: relative;
+    top: 1px;
+    font-size: 1.4rem;
+}
+.select-input__list{
+    z-index: 1;
+    position: absolute;
+    left: 0;
+    right: 0;
+    display: none;
+    top: 25px;
+    padding: 10px 14px 12px 9px;
+    border-radius: 3px;
+    background-color: var(--white-color);
+}
+.select-input__item{
+    list-style: none;
+    margin: 4px;
+   
+}
+.select-input__link:hover{
+    color: var(--primary-color);
+}
+.select-input__link{
+    text-decoration: none;
+    color: var(--text-color);
+    font-size: 1.4rem;
+    display: block;
+    padding: 6px 0;
+
+}
+/* pagination */
+.pagination{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pagination-item{
+    list-style: none;
+    margin: 0 8px;
+}
+
+.pagination-item__link{
+    --height: 30px;
+    text-decoration: none;
+    font-size: 1.8rem;
+    color: var(--text-color);
+    min-width: 40px;
+    height: var(--height);
+    display: block;
+    text-align: center;
+    line-height: var(--height);
+    border-radius: 2px;
+   
+}
+.pagination-item--active .pagination-item__link{
+    background-color: var(--primary-color);
+    color: var(--white-color);
+}
+.pagination-item--active:hover .pagination-item__link{
+    background-color: rgb(240, 103, 94);
+}
+
+.pagination-item__icon{
+    
+}

@@ -1,0 +1,248 @@
+.product {
+	height: 40px;
+	padding-top: 5px;
+	text-align: center;
+	background: rgba(255, 255, 255, .6);
+	box-shadow: 0 2px 4px 0 rgba(70, 68, 68, 0.4);
+	border-radius: 4px;
+}
+
+.home-product {
+	background: rgba(255, 255, 255, .6);
+	box-shadow: 0 2px 4px 0 rgba(70, 68, 68, 0.4);
+	border-radius: 4px;
+	padding-top: 20px;
+	margin-bottom: 20px;
+	overflow: hidden;
+}
+
+.home-product__mail {
+	padding-bottom: 20px;
+}
+
+.slider__imgh {
+	width: 100%;
+	height: 450px;
+	max-height: 500px;
+	display: block;
+	border-radius: 4px;
+	overflow: hidden;
+}
+
+.imgh {
+	border-radius: 4px;
+}
+
+.home-product__srols {
+	display: flex;
+	padding-left: 0;
+	max-width: 100%;
+	overflow-x: auto;
+}
+
+.home-product__srols::-webkit-scrollbar {
+	display: none;
+}
+
+.home-product__list {
+	list-style: none;
+	flex-shrink: 0;
+	margin-right: 10px;
+}
+
+.card__bdh {
+	width: 232px;
+	overflow: hidden;
+	display: -webkit-box;
+	-webkit-box-orient: vertical;
+	-webkit-line-clamp: 2;
+	user-select: none;
+	-webkit-user-select: none;
+	padding: 0 12px;
+	margin-bottom: 16px;
+}
+.card__bdh:hover .bg__bgr{
+	transform: translateY(-10px);
+	box-shadow: 0 4px 5px 0 rgba(70, 68, 68, 0.2);
+}
+
+/* hieu ung 2*/
+.item3 {
+	position: absolute;
+	bottom: 15px;
+	right: 100%;
+	transition: all .3s linear;
+	border-radius: 6px;
+	cursor: pointer;
+	min-width: 90px !important;
+	background: #FFCCCC;
+	color: #000000;
+}
+
+.item3:hover {
+	background: #ff0000;
+	color: #fff;
+}
+
+.card:hover .item3 {
+	right: 110px;
+}
+
+.item4 {
+	position: absolute;
+	bottom: 15px;
+	left: 100%;
+	transition: all .3s linear;
+	border-radius: 6px;
+	cursor: pointer;
+	min-width: 90px !important;
+	background: #6699FF;
+	color: #000000;
+}
+
+.item4:hover {
+	background: #00004d;
+	color: #fff;
+}
+
+.card:hover .item4 {
+	left: 110px;
+}
+/*details*/
+.details-img {
+	max-height: 400px;
+	width: 100%;
+	border-radius: 4px;
+}
+
+.details-item {
+	margin-bottom: 15px;
+	height: 400px;
+	padding: 10px;
+	border-radius: 4px;
+	background: rgba(255, 255, 255, .6);
+	box-shadow: 0 2px 4px 0 rgba(70, 68, 68, 0.4);
+}
+
+.details-heading {
+	font-size: 2.4rem;
+}
+
+.details-decs {
+	padding: 10px 0;
+	font-size: 1.44rem;
+	line-height: 20px;
+}
+
+.details-price {
+	padding: 10px 0;
+	font-size: 2rem;
+	color: red;
+	font-weight: 600;
+}
+
+.details-btn {
+	background: #ff80c0;
+	color: #fff;
+	bottom: 10px;
+	min-width: 150px !important;
+}
+
+.details-btn:hover {
+	background: red;
+	color: #fff;
+}
+
+.imgsa {
+	height: 200px;
+	width: 208px;
+}
+
+.card__desc {
+	font-size: 1.2rem;
+	font-weight: 400;
+	height: 2rem;
+	display: block;
+	overflow: hidden;
+	display: -webkit-box;
+	-webkit-box-orient: vertical;
+	-webkit-line-clamp: 1;
+	text-overflow: ellipsis;
+}
+.card__price{
+	font-size: 1.3rem;
+	color: red;
+	font-weight: 500;
+	
+}
+/**/
+.home-product-item__sale-off{
+   position: absolute;
+	z-index: 10;
+	height: 40px;
+	width: 36px;
+    background-color: red;
+    text-align: center;
+    border-top-left-radius: 4px;
+
+}
+.home-product-item__sale-off::after{
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -6px;
+    border-width: 0 18px 6px;
+    border-style: solid;
+    color: red;
+    border-color: transparent currentColor transparent currentColor;
+
+}
+
+.home-product-item__sale-off-percent{
+    color: white;
+    font-weight: 800;
+    font-size: 1.3rem;
+    line-height: 1.9rem;
+    position: relative;
+   
+}
+
+.home-product-item__sale-off-lable{
+    color: var(--white-color);
+    font-size: 1.3rem;
+    line-height: 1.4rem;
+    font-weight: 500;
+    position: relative;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
