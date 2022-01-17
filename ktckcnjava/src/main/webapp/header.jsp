@@ -27,24 +27,13 @@
       <li class="nav-item active">
         <a class="nav-link" href="mycart.jsp" style="font-size: 1.4rem;"> <i class="fas fa-cart-plus">Cart</i></a>
       </li>
-      <li class="nav-item active">
-        <a class="nav-link" href="#" style="font-size: 1.4rem;">Link</a>
-      </li>
-      
-      <li class="nav-item" style="font-size: 1.4rem;">
-        <a class="nav-link disabled" href="#" >Disabled</a>
-      </li>
       <li class="nav-item dropdown" style="font-size: 1.4rem;">
         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-          Dropdown
+          UserName
         </a>
         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
           <a class="dropdown-item" href="#" style="font-size: 1.2rem;"><%out.println(email); %></a>
           <div class="dropdown-divider" style="font-size: 1.2rem;"></div>
-          <a class="dropdown-item" href="#" style="font-size: 1.2rem;">Another TIẾNG ANH</a>
-          <div class="dropdown-divider" ></div>
-          <a class="dropdown-item" href="login.jsp" style="font-size: 1.2rem;">Something else here</a>
-           <div class="dropdown-divider"></div>
           <a class="dropdown-item" href="logout.jsp" style="font-size: 1.2rem;">logOut</a>
         </div>
       </li>

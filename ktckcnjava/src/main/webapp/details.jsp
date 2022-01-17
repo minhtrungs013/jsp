@@ -32,6 +32,12 @@
 							<div class="details-item">
 								<h3 class="details-heading"><%=rs.getString(2)%></h3>
 								<h5 class="details-decs"><%=rs.getString(3)%></h5>
+								<i class="fas fa-star"style="  color: red; font-size: 16px;  "></i>
+								<i class="fas fa-star"style="  color: red; font-size: 16px;  "></i>
+								<i class="fas fa-star"style="  color: red; font-size: 16px;  "></i>
+								<i class="fas fa-star"style="  color: red; font-size: 16px;  "></i>
+								<i class="fas fa-star"style="   font-size: 16px;  "></i>
+								
 								<h4 class="details-price">
 									price:
 									<%=rs.getString(4)%>

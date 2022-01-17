@@ -13,8 +13,8 @@
 	<div class="grid wide mt-5">
 		<div class="row">
 			<div class="col-lg-3 ">
-				<table class="table">
-					<thead class="thead-dark">
+				<table class="table home-product"style="font-size:14px;text-align: center; ">
+					<thead class="thead-dark" style="font-size:16px; text-align: center; ">
 						<tr>
 							<th scope="col">Dashboard</th>
 						</tr>
@@ -42,8 +42,8 @@
 					</tbody>
 				</table>
 			</div>
-			<div class="col-lg-9 boder1">
-				<table class="table">
+			<div class="col-lg-9 " >
+				<table class="table home-product" style="font-size:16px; text-align: center; ">
 					<thead class="thead-dark">
 						<tr>
 							<th scope="col">ID</th>

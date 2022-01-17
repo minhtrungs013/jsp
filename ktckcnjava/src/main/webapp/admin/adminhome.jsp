@@ -6,7 +6,7 @@
 <title>Insert title here</title>
 </head>
 <body>
-	<div class=" grid wide">
+	<div class=" grid wide home-product">
 	<h1 class="heading__center">Chao mung ban</h1>
 	</div>
 </body>

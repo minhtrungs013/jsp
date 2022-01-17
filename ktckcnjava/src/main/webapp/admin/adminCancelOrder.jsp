@@ -7,9 +7,7 @@
 </head>
 <body>
 <div class="grid wide mt-5">
-		<h4 class="alert heading__center">Order Cancel Successfully!</h4>
-		<h4 class="alert heading__center">Successfully Updated!</h4>
-		<h4 class="alert heading__center">Some thing went wrong! Try Again!</h4>
+		
 	<div class="row">
 	   <div class="col-lg-12 boder1">
 	   	<h3 class="heading__center">Cancel Order</h3>
@@ -38,7 +36,7 @@
 		      <td>Otto</td>
 		      <td>@mdo</td>
 		      <td>@mdo</td>
-		      <td> <a href="adminEditProduct.jsp">Edit</a></td>
+		      <td>adđ</td>
 		      <td>Mark</td>
 		      <td>Otto</td>
 		      <td>@mdo</td>

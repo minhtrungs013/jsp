@@ -1,7 +1,5 @@
 <%@ page import="dao1.ConnectionProvider"%>
 <%@ page import="java.sql.*"%>
-<%@ page language="java" contentType="text/html; charset=UTF-8"
-	pageEncoding="UTF-8"%>
 <% 
 	String id = request.getParameter("id");
 	String name = request.getParameter("name");

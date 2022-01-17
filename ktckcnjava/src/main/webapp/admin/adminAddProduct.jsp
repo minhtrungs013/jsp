@@ -27,8 +27,8 @@
 
 		<div class="row">
 			<div class="col-lg-3 ">
-				<table class="table">
-					<thead class="thead-dark">
+				<table class="table home-product" style="font-size:14px;text-align: center; ">
+					<thead class="thead-dark" style="font-size:16px; ">
 						<tr>
 							<th scope="col">Dashboard</th>
 						</tr>
@@ -57,7 +57,7 @@
 				</table>
 			</div>
 
-			<div class="col-lg-9 boder1">
+			<div class="col-lg-9 ">
 				<%
 				int id = 1;
 				try {
@@ -73,7 +73,7 @@
 
 				}
 				%>
-				<form action="adminAddProductAction.jsp" method="post">
+				<form action="adminAddProductAction.jsp" method="post" class="home-product"  style="font-size:16px; padding-left: 10px; ">
 					<h3 class="heading__center">
 						Product ID:<%
 					out.println(id);
@@ -84,26 +84,26 @@
 						<label for="exampleInputEmail1">Enter Name</label> <input
 							type="text" name="name" class="form-control"
 							id="exampleInputEmail1" aria-describedby="emailHelp"
-							placeholder="Enter Name" required>
+							placeholder="Enter Name" required style="font-size:14px; ">
 					</div>
 					<div class="form-group">
 						<label for="exampleInputPassword1">Enter Category</label> <input
 							type="text" name="category" class="form-control"
-							id="exampleInputPassword1" placeholder="Enter Category" required>
+							id="exampleInputPassword1" placeholder="Enter Category" required style="font-size:14px; ">
 					</div>
 					<div class="form-group">
 						<label for="exampleInputPassword1">Enter price</label> <input
 							type="text" name="price" class="form-control"
-							id="exampleInputPassword1" placeholder="Enter Price" required>
+							id="exampleInputPassword1" placeholder="Enter Price" required style="font-size:14px; ">
 					</div>
 					<div class="form-group">
 						<label for="exampleInputPassword1">Enter price_sale</label> <input
 							type="text" name="price_sale" class="form-control"
-							id="exampleInputPassword1" placeholder="Enter Price" required>
+							id="exampleInputPassword1" placeholder="Enter Price" required style="font-size:14px; ">
 					</div>
 					<div class="form-group">
-						<label for="exampleInputPassword1">Enter Active</label> <select
-							class="form-control" name="active">
+						<label for="exampleInputPassword1" style="">Enter Active</label> <select
+							class="form-control" name="active" style="font-size:14px; height: 32px; ">
 							<option value="yes">yes</option>
 							<option value="no">no</option>
 							<option value="hot1">hot1</option>
@@ -115,10 +115,11 @@
 					<div class="form-group">
 						<label for="exampleInputPassword1">Enter Link Img</label> <input
 							type="text" name="img" class="form-control"
-							id="exampleInputPassword1" placeholder="Enter link img" required>
+							id="exampleInputPassword1" placeholder="Enter link img" required style="font-size:14px; ">
 					</div>
 					<br>
 					<button class="btn btn-primary ">Submit</button>
+					<br>
 				</form>
 			</div>
 		</div>
